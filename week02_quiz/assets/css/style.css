@@ -7,14 +7,14 @@
 
 
 
-@import url(https://fonts.googleapis.com/css?family=Satisfy|Pathway+Gothic+One);
 /* Defaults */
-/*html, body, #quizzie {
+html{
     margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}*/
+    padding: 10%;
+/*    width: 100%;
+    height: 100%;*/
+}
+
 body {
     font-family: Open Sans;
 }
@@ -24,12 +24,13 @@ h1 {
 }
 
 #title {
-    text-decoration: underline;
+    color:#ee8d49;
 }
 
 #quiz {
     text-indent: 10px;
     display:none;
+    color:black;
 }
 
 .button {
@@ -47,7 +48,7 @@ h1 {
 
 .button.active {
     background-color: #F8F8FF;
-    color: #525252;
+    color: #DCDCDC;
 }
 
 button {
@@ -64,7 +65,7 @@ button {
     width:50%;
     margin:auto;
     padding: 0 25px 40px 10px;
-    background-color: #1E90FF;
+    background:linear-gradient(to top, #66ccff 0%, #ffff66 100%);
     border:4px solid #B0E0E6;
     border-radius:5px;
     color: #FFFFFF;

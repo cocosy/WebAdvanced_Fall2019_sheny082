@@ -1,72 +1,110 @@
 (function() {
   var questions = [{
-    question: "What is 2*5?",
-    choices: [2, 5, 10, 15, 20],
-    correctAnswer: 2
+    question: "Buy a Krabby Patty?",
+    choices: [ "Yes","No"],
+
   }, {
-    question: "What is 3*6?",
-    choices: [3, 6, 9, 12, 18],
-    correctAnswer: 4
+    question: "SpongeBob is making it for you. Please tip.",
+    choices: ["$5", "No tip"],
+
   }, {
-    question: "What is 8*9?",
-    choices: [72, 99, 108, 134, 156],
-    correctAnswer: 0
-  }, {
-    question: "What is 1*7?",
-    choices: [4, 5, 6, 7, 8],
-    correctAnswer: 3
-  }, {
-    question: "What is 8*8?",
-    choices: [20, 30, 40, 50, 64],
-    correctAnswer: 4
+    question: "So What do you want to order?",
+    choices: ["Sushi","I want it for free!"],
+
   }];
-  
+
+  var result = [{
+  title : "SpongeBob made you a double-layer Krabby Patty!",},{
+  title : "SpongeBob is quitting this job", },{
+  title: "You are not welcomed BYE!",},{
+  title: "Free?! Nobody eats at my restaurant for free!",}
+  ];
+ 
   var questionCounter = 0; //Tracks question number
   var selections = []; //Array containing user choices
   var quiz = $('#quiz'); //Quiz div object
+  var num;
   
+
+  
+ 
   // Display initial question
   displayNext();
-  
-  // Click handler for the 'next' button
-  $('#next').on('click', function (e) {
-    e.preventDefault();
+
+ // Displays next requested element
+  function displayNext() {
+    quiz.fadeOut(function() {
+      $('#question').remove();
+      $('#result').remove();
+
+
+      
+      if(selections[0] === 0) && selections[1] === 0 ){
+    num = 0;
+    }else if(selections[0] === 0 && selections[1] === 1 ){
+    num =1;
+
+  }else if(selections[0] === 1 && selections[1] === 0){
+    num =2;
     
-    // Suspend click listener during fade animation
-    if(quiz.is(':animated')) {        
-      return false;
-    }
-    choose();
+  }else if(selections[0] === 1 && selections[1] === 1){
+    num = 3;}
+
+      if(questionCounter < questions.length){
+
+        var nextQuestion = createQuestionElement(questionCounter);
+        quiz.append(nextQuestion).fadeIn();
+        if (!(isNaN(selections[questionCounter]))) {
+          $('input[value='+selections[questionCounter]+']').prop('checked', true);
+        }
+        
+        // Controls display of 'prev' button
+        if(questionCounter !== 0){
+          $('#prev').show();
+          $('#next').show();
+        
+        } else if(questionCounter === 0){
+          
+          $('#prev').hide();
+          $('#next').show();
+
+        }
+      }else {
+        var endingElem = displayResult();
+        quiz.append(endingElem).fadeIn();
+        $('#next').hide();
+        $('#prev').hide();
+        $('#start').show();
+      }
+    });
+ 
     
-    // If no user selection, progress is stopped
-    if (isNaN(selections[questionCounter])) {
-      alert('Please make a selection!');
-    } else {
-      questionCounter++;
-      displayNext();
-    }
-  });
-  
-  // Click handler for the 'prev' button
+  }
+
+
+
+
+
+
+
+   // Click handler for the 'prev' button
   $('#prev').on('click', function (e) {
     e.preventDefault();
-    
-    if(quiz.is(':animated')) {
-      return false;
-    }
-    choose();
-    questionCounter--;
-    displayNext();
-  });
-  
-  // Click handler for the 'Start Over' button
-  $('#start').on('click', function (e) {
-    e.preventDefault();
-    
     if(quiz.is(':animated')) {
       return false;
     }
     questionCounter = 0;
+    choose();
+    displayNext();
+  });
+
+  // Click handler for the 'Start Over' button
+  $('#start').on('click', function (e) {
+    e.preventDefault();
+    if(quiz.is(':animated')) {
+      return false;
+    }
+      questionCounter = 0;
     selections = [];
     displayNext();
     $('#start').hide();
@@ -79,6 +117,43 @@
   $('.button').on('mouseleave', function () {
     $(this).removeClass('active');
   });
+
+
+
+
+
+
+
+
+
+  
+  // Click handler for the 'next' button
+  $('#next').on('click', function (e) {
+      e.preventDefault();
+    
+    // Suspend click listener during fade animation
+      if(quiz.is(':animated')) {        
+      return false;
+      }
+      choose();
+    
+      // If no user selection, progress is stopped
+     if (isNaN(selections[questionCounter])) {
+      alert('Please make a selection!');
+      }
+      else if(questionCounter === 0 && selections[selections.length-1] === 1)
+      { questionCounter +=2;}
+      else if(questionCounter === 1)
+      {questionCounter +=2;}
+      else{questionCounter ++;}
+
+   //console.log(selections[selections.length-1]);
+      
+      displayNext();
+    
+  });
+  
+ 
   
   // Creates and returns the div that contains the questions and 
   // the answer selections
@@ -87,7 +162,7 @@
       id: 'question'
     });
     
-    var header = $('<h2>Question ' + (index + 1) + ':</h2>');
+    var header = $('<h2>Q' + (index + 1) + ':</h2>');
     qElement.append(header);
     
     var question = $('<p>').append(questions[index].question);
@@ -99,6 +174,7 @@
     return qElement;
   }
   
+
   // Creates a list of the answer choices as radio inputs
   function createRadios(index) {
     var radioList = $('<ul>');
@@ -114,54 +190,35 @@
     return radioList;
   }
   
+
+
   // Reads the user selection and pushes the value to an array
   function choose() {
     selections[questionCounter] = +$('input[name="answer"]:checked').val();
   }
-  
-  // Displays next requested element
-  function displayNext() {
-    quiz.fadeOut(function() {
-      $('#question').remove();
-      
-      if(questionCounter < questions.length){
-        var nextQuestion = createQuestionElement(questionCounter);
-        quiz.append(nextQuestion).fadeIn();
-        if (!(isNaN(selections[questionCounter]))) {
-          $('input[value='+selections[questionCounter]+']').prop('checked', true);
-        }
-        
-        // Controls display of 'prev' button
-        if(questionCounter === 1){
-          $('#prev').show();
-        } else if(questionCounter === 0){
-          
-          $('#prev').hide();
-          $('#next').show();
-        }
-      }else {
-        var scoreElem = displayScore();
-        quiz.append(scoreElem).fadeIn();
-        $('#next').hide();
-        $('#prev').hide();
-        $('#start').show();
-      }
-    });
-  }
-  
-  // Computes score and returns a paragraph element to be displayed
-  function displayScore() {
-    var score = $('<p>',{id: 'question'});
+
+  // Computes and returns a paragraph element to be displayed
+  function displayResult() {
+    var ending = $('<p>',{id: 'question'});
     
-    var numCorrect = 0;
-    for (var i = 0; i < selections.length; i++) {
-      if (selections[i] === questions[i].correctAnswer) {
-        numCorrect++;
-      }
-    }
-    
-    score.append('You got ' + numCorrect + ' questions out of ' +
-                 questions.length + ' right!!!');
-    return score;
+
+
+ console.log(num);
+   // var header = $('<h2>Q' + (index + 1) + ':</h2>');
+   //  qElement.append(header);
+
+
+         // for (var i = 0; i < selections.length; i++) {
+    // ending.append(result[num].title);
+
+      for (var i = 0; i < result.length; i++) {
+    console.log(result[i].title);}
+
+    return ending;
+
+
   }
 })();
+
+
+
