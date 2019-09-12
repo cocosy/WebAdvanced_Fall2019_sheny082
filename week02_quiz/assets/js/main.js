@@ -37,19 +37,6 @@
       $('#question').remove();
       $('#result').remove();
 
-
-      
-      if(selections[0] === 0) && selections[1] === 0 ){
-    num = 0;
-    }else if(selections[0] === 0 && selections[1] === 1 ){
-    num =1;
-
-  }else if(selections[0] === 1 && selections[1] === 0){
-    num =2;
-    
-  }else if(selections[0] === 1 && selections[1] === 1){
-    num = 3;}
-
       if(questionCounter < questions.length){
 
         var nextQuestion = createQuestionElement(questionCounter);
@@ -57,7 +44,7 @@
         if (!(isNaN(selections[questionCounter]))) {
           $('input[value='+selections[questionCounter]+']').prop('checked', true);
         }
-        
+
         // Controls display of 'prev' button
         if(questionCounter !== 0){
           $('#prev').show();
@@ -188,6 +175,7 @@
       radioList.append(item);
     }
     return radioList;
+
   }
   
 
@@ -200,19 +188,30 @@
   // Computes and returns a paragraph element to be displayed
   function displayResult() {
     var ending = $('<p>',{id: 'question'});
+
+      //check user answers:
+
+           if(selections[0] === 0 && selections[1] === 0 ) {
+    num = 0;
+    }else if(selections[0] === 0 && selections[1] === 1 ){
+    num =1;
+
+  }else if(selections[0] === 1 && selections[2] === 0){
+    num =2;
     
+  }else if(selections[0] === 1 && selections[2] === 1){
+    num = 3;}
 
 
- console.log(num);
+
+
    // var header = $('<h2>Q' + (index + 1) + ':</h2>');
    //  qElement.append(header);
 
 
          // for (var i = 0; i < selections.length; i++) {
-    // ending.append(result[num].title);
+    ending.append(result[num].title);
 
-      for (var i = 0; i < result.length; i++) {
-    console.log(result[i].title);}
 
     return ending;
 
