@@ -30,9 +30,9 @@ header {
 	height: 10vh;
 	text-align: center;
 }
-header #desktop {
+/*header #desktop {
 	display: none;
-}
+}*/
 header nav a {
 	padding: 0 2vh;
 	text-decoration: none;

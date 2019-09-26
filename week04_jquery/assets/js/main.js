@@ -33,7 +33,7 @@ $(window).scroll(function(){
 
 	let scrollPos = $(window).scrollTop();
 	console.log(scrollPos);
-
+ 
 
 	let stickNav = $("nav"); // class 
 	stickyMenu(stickNav);
@@ -57,7 +57,7 @@ $(window).scroll(function(){
 
 //02 text appear when scroll to certain section
 
-	let sectionTwo = $('#linkTwo').offset().top;
+	let sectionTwo = $('#place').offset().top;
 
 	if(scrollPos>=sectionTwo-100){
 		$('.t2').addClass('appear'); //class thus add . dot
@@ -86,9 +86,8 @@ function closeNav(){
 //04 links in the hamburger bar 
 function addLinks(apples){ //parameter
 	apples.innerHTML += "<a href='#home'>Home</a> ";
-	apples.innerHTML += "<a href='#linkOne'>About</a> ";
-	apples.innerHTML += "<a href='#linkTwo'>Work</a> ";
-	apples.innerHTML += "<a href='#linkThree'>Bye</a> ";
+	// apples.innerHTML += "<a href="about.html">About</a> ";
+	// apples.innerHTML += "<a href="add.html">+add</a> ";
 
 }
 

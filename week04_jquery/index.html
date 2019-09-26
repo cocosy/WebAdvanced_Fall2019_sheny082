@@ -1,61 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Single Page</title>
-	<meta charset="utf-8" />
+	<meta charset="UTF-8">
+	<title>Week04-jQuery</title>
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-
 	<link rel="stylesheet" href="assets/css/style.css">
-
-
 	<script type="text/javascript" src="assets/js/main.js"></script>	
-	
 	<script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 </head>
+
+
 <body>
-	
+
+
+
+	<header>
+<!-- 	close icon for side bar -->
 	<div id="mySideNav" class="sideNav">
 		<span id="closeIcon" onclick="closeNav()">&times;</span>
+
 	</div>
 
+<!-- side bar -->
 	<div id="home">
 		<div class="ham-container">
-		<span class="hamberguer" onclick="openNav()">&#9776;</span></div>   
-		<span class="big-text">THIS IS MY WEBSITE!</span>
+			<span class="hamberguer" onclick="openNav()">&#9776;</span>
+			<span class="hamberguer" style="font-size: 30px; color:gold; cursor: pointer;" onclick="openNav()">&#9776;</span></div>
+			<span class="big-text">1995 archive</span>
+ 
+
 	</div>
+
+<!-- 	Nav -->
+    	<div class="menubar" id ="nav">
+			 <nav>
+		 	<li><a class="submenu link1" href="#object" tabindex="1">Objects</a></li>
+		 	<li><a class="submenu link2" href="#place" tabindex="1">Places</a></li>
+		 	<li><a class="submenu link3" href="#event" tabindex="1">Events</a></li>
+
+			</nav>
+		</div>
+
+
+
+
+
+<!-- <div id="myBtnContainer">
+	  <button class="btn active" onclick="filterSelection('all')"> All </button>
+	  <button class="btn" onclick="filterSelection('object')"> Objects </button>
+	  <button class="btn" onclick="filterSelection('placeace)"> Places </button>
+	  <button class="btn" onclick="filterSelection('event')"> Events </button>
+</div> -->
 
 	
 
-	<div class="menubar" id ="nav">
-		 <nav>
-		 	<li><a class="submenu link1" href="#linkOne" tabindex="1">Link 1</a></li>
-		 	<li><a class="submenu link2" href="#linkTwo" tabindex="1">Link 2</a></li>
-		 	<li><a class="submenu link3" href="#linkThree" tabindex="1">Link 3</a></li>
-
-		</nav>
-	</div>
+</header>
 
 
-	<div id="linkOne" class="linkOne page">
-		<div class="first-container">
-			<spam class="big-text t1">OUR TEAM</spam>	 	
-		</div>		
-	</div>
-
-	<div id="linkTwo" class="linkTwo page">
-		<div class="second-container">	
-			<spam class="big-text t2">SERVICES</spam> 	
-		</div>		
-	</div>
 
 
-	<div id="linkThree" class="linkThree page">
-		<div class="third-container">
-			<spam class="big-text t3">TESTIMONIALS</spam>	 	
-		</div>		
-	</div>
+
+	<div id="object" class="object page">
+			<div class="first-container">
+				<spam class="big-text t3">Objects</spam>	
+		
+			<section>
+		         <div id="work">
+					<div id="item1" class="items">Item 1</div>
+					<div id="item2" class="items">Item 2</div>
+					<div id="item3" class="items">Item 3</div>
+				
+				</div> 	
+			</section>
+			</div>		
+		</div>
+
+	<div id="place" class="place page">
+			<div class="second-container">	
+				<spam class="big-text t2">Places</spam> 
+
+				<section>
+		         <div id="work">
+					<div id="item1" class="items">Item 1</div>
+					<div id="item2" class="items">Item 2</div>
+					<div id="item3" class="items">Item 3</div>
+					
+				</div> 	
+				</section>
+			</div>		
+		</div>
+
+
+	<div id="event" class="event page">
+			<div class="third-container">
+				<spam class="big-text t3">Events</spam>	 
+
+					<section>
+						<div id="work">
+					<div id="item1" class="items">Item 1</div>
+					<div id="item2" class="items">Item 2</div>
+					<div id="item3" class="items">Item 3</div>
+					</div>
+				<section>
+			</div>		
+		</div>
 
 
 	
