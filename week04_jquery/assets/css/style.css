@@ -96,9 +96,11 @@
 		position: relative;
 		color: white;
 		 float: left;
-
 	}
 
+#topic{
+	 float: none;
+}
 
 	/* Style the buttons */
 
@@ -336,7 +338,9 @@ header nav a {
 	.t1, .t2, .t4 {
 		opacity: 0;  						/*opacity and display */
 		transition: opacity 0.5s;
+
 	}
+
 	.appear{
 		opacity: 1;
 	}
