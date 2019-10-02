@@ -1,10 +1,10 @@
 {"data":[
     {
-        "website":"Foodies",
+        "website":"Digital Device",
         "website-info":
         [
             {
-                "title":"Zhenya Rynzhuk Folio 2019",
+                "title":"White Rabbit Creamy Candy",
                 "content":{
 
                     "image":"./assets/img/pic-04.png",
@@ -45,33 +45,33 @@
         "website-info":
         [
             {
-                "title":"Julio Cesar",
+                "title":"Yo-yo Ball",
                 "content":{
 
                     "image":"./assets/img/pic-06.png",
-                    "url":"https://www.juliocesar.work/",
-                    "parragraph":"A Brazilian creative developer based in Barcelona, focused on digital interactive experiences."
+                    "url":"https://en.wikipedia.org/wiki/Yo-yo",
+                    "parragraph":"Blazing Teens is a Chinese show that was created in 2006. The show focuses on high schools that hold yo-yo contests. Each yo-yo has a name that reflects the toy's design. And soon become popular among children."
                 }
 
             },
 
             {
-                "title":"Intact",
+                "title":"KFC お茶犬",
                 "content":{
 
+                    "image":"./assets/img/pic-03.jpeg",
+                    "url":"https://www.youtube.com/watch?v=POZGP2PtpBc",
+                    "parragraph":"Ocha-Ken (お茶犬) means in Japanese 'tea puppy' or 'tea dog'. They are colorful puppies, with tea leaves for ears. They collaborated with KFC in 2007 and that series of toys was the trend of that year ."
+                }
+
+            },
+
+            {
+                "title":"Mini 4WD",
+                "content":{
                     "image":"./assets/img/pic-07.png",
-                    "url":"https://www.intactsoftware.com/",
-                    "parragraph":"Industry-specific ERP software that helps business operations scale, extend or diversify with ease."
-                }
-
-            },
-
-            {
-                "title":"Warped Cigars",
-                "content":{
-                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d8a31472a054815604255.png",
-                    "url":"https://www.warpedcigars.com/",
-                    "parragraph":"The official website for boutique cigar company Warped Cigars by Kyle Gellis, with factories in Little Havana and Esteli, Nicaragua."
+                    "url":"https://en.wikipedia.org/wiki/Bakus%C5%8D_Ky%C5%8Ddai_Let%27s_%26_Go!!",
+                    "parragraph":"The Racing Brothers Let's & Go!! are Japanese animes produced from 1996 to 1998,adapted from the original manga. The Mini 4WD is a miniature AA battery powered plastic model race car without remote control."
                 }
 
             }
