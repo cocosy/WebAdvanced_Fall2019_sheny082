@@ -59,8 +59,9 @@ h3{
 /* Cards Style */
 
 body{
-    background-color: rgb(48, 48, 48);
-}
+        background-image: url("../img/QQimage.jpg");
+     background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
 
 h1{
 
@@ -127,9 +128,6 @@ p{
     padding: 0;
     font-size: calc(1rem + 1vw);
     text-decoration: none;
-     background-image: url("../img/QQimage.jpg");
-     background-color: rgba(255,255,255,0.6);
-    background-blend-mode: lighten;
     cursor: pointer;
     
 }
