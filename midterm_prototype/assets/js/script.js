@@ -1,16 +1,4 @@
-// var elem = document.querySelector('.grid');
-// var pckry = new Packery( elem, {
-//   // options
-//   itemSelector: '.grid-item',
-//   gutter: 10
-// });
-
-// // element argument can be a selector string
-// //   for an individual element
-// var pckry = new Packery( '.grid', {
-//   // options
-// });
-
+// external js: packery.pkgd.js, draggabilly.pkgd.js
 
 var $grid = $('.grid').packery({
   itemSelector: '.grid-item',
@@ -25,26 +13,12 @@ $grid.find('.grid-item').each( function( i, gridItem ) {
 });
 
 
-
-
-// var $grid = $('.grid').packery({
-//   itemSelector: '.grid-item'
-// });
-
-// $grid.on( 'click', '.grid-item', function( event ) {
-//   // change size of item by toggling large class
-//   $( event.currentTarget ).toggleClass('grid-item--large');
-//   // trigger shiftLayout after item size changes
-//   $grid.packery('shiftLayout');
-// });
-
-
-
-
-
-
-
-
+$grid.on( 'click', '.grid-item', function( event ) {
+  // change size of item by toggling large class
+  $(  event.currentTarget  ).toggleClass('grid-item--large');
+  // trigger layout after item size changes
+  $grid.packery('layout');
+});
 
 
 
@@ -77,5 +51,3 @@ $grid.find('.grid-item').each( function( i, gridItem ) {
 // 	list.append(result);
 
 // }
-
-

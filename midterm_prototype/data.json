@@ -1,89 +1,110 @@
+// {"data":[
+//     {
+//         "website":"Digital Device",
+//         "website-info":
+//         [
+//             {
+//                 "title":"White Rabbit Creamy Candy",
+//                 "content":{
+
+//                     "image":"./assets/img/pic-04.png",
+//                     "url":"https://zhenyary.com/",
+//                     "parragraph":"Portfolio of Zhenya Rynzhuk: award-winning art director and digital designer. with an architectural background."
+//                 }
+
+//             },
+
+//             {
+//                 "title":"#24hourace",
+//                 "content":{
+
+//                     "image":"./assets/img/pic-05.png",
+//                     "url":"http://24hourace.gucci.com/",
+//                     "parragraph":"First launched in 2016, the digital project returns with a series of videos that bring the sneaker design to life."
+//                 }
+
+//             },
+
+//             {
+//                 "title":"MakeUI - Styled Sketch UI Kits",
+//                 "content":{
+
+//                     "image":"./assets/img/pic-08.png",
+//                     "url":"https://makeui.design/",
+//                     "parragraph":"MakeUI is a digital design tool that generates styled Sketch UI kits within seconds for quick and easy prototyping."
+//                 }
+
+//             }
+        
+//         ]
+    
+//     },
+
+
+//     {   "website":"Toys",
+//         "website-info":
+//         [
+//             {
+//                 "title":"Yo-yo Ball",
+//                 "content":{
+
+//                     "image":"./assets/img/pic-06.png",
+//                     "url":"https://en.wikipedia.org/wiki/Yo-yo",
+//                     "parragraph":"Blazing Teens is a Chinese show that was created in 2006. The show focuses on high schools that hold yo-yo contests. Each yo-yo has a name that reflects the toy's design. And soon become popular among children."
+//                 }
+
+//             },
+
+//             {
+//                 "title":"KFC お茶犬",
+//                 "content":{
+
+//                     "image":"./assets/img/pic-03.jpeg",
+//                     "url":"https://www.youtube.com/watch?v=POZGP2PtpBc",
+//                     "parragraph":"Ocha-Ken (お茶犬) means in Japanese 'tea puppy' or 'tea dog'. They are colorful puppies, with tea leaves for ears. They collaborated with KFC in 2007 and that series of toys was the trend of that year ."
+//                 }
+
+//             },
+
+//             {
+//                 "title":"Mini 4WD",
+//                 "content":{
+//                     "image":"./assets/img/pic-07.png",
+//                     "url":"https://en.wikipedia.org/wiki/Bakus%C5%8D_Ky%C5%8Ddai_Let%27s_%26_Go!!",
+//                     "parragraph":"The Racing Brothers Let's & Go!! are Japanese animes produced from 1996 to 1998,adapted from the original manga. The Mini 4WD is a miniature AA battery powered plastic model race car without remote control."
+//                 }
+
+//             }
+        
+//         ]
+    
+
+//     }
+
+
+// ]
+
+// }
+
+
 {"data":[
-    {
-        "website":"Digital Device",
-        "website-info":
+        {"image":
         [
             {
-                "title":"White Rabbit Creamy Candy",
-                "content":{
-
-                    "image":"./assets/img/pic-04.png",
-                    "url":"https://zhenyary.com/",
-                    "parragraph":"Portfolio of Zhenya Rynzhuk: award-winning art director and digital designer. with an architectural background."
-                }
-
+                "./assets/img/pic-04.png"
             },
 
             {
-                "title":"#24hourace",
-                "content":{
-
-                    "image":"./assets/img/pic-05.png",
-                    "url":"http://24hourace.gucci.com/",
-                    "parragraph":"First launched in 2016, the digital project returns with a series of videos that bring the sneaker design to life."
-                }
-
+                "./assets/img/pic-05.png"
             },
 
             {
-                "title":"MakeUI - Styled Sketch UI Kits",
-                "content":{
-
-                    "image":"./assets/img/pic-08.png",
-                    "url":"https://makeui.design/",
-                    "parragraph":"MakeUI is a digital design tool that generates styled Sketch UI kits within seconds for quick and easy prototyping."
-                }
-
+               "./assets/img/pic-08.png"
             }
         
         ]
-    
-    },
 
-
-    {   "website":"Toys",
-        "website-info":
-        [
-            {
-                "title":"Yo-yo Ball",
-                "content":{
-
-                    "image":"./assets/img/pic-06.png",
-                    "url":"https://en.wikipedia.org/wiki/Yo-yo",
-                    "parragraph":"Blazing Teens is a Chinese show that was created in 2006. The show focuses on high schools that hold yo-yo contests. Each yo-yo has a name that reflects the toy's design. And soon become popular among children."
-                }
-
-            },
-
-            {
-                "title":"KFC お茶犬",
-                "content":{
-
-                    "image":"./assets/img/pic-03.jpeg",
-                    "url":"https://www.youtube.com/watch?v=POZGP2PtpBc",
-                    "parragraph":"Ocha-Ken (お茶犬) means in Japanese 'tea puppy' or 'tea dog'. They are colorful puppies, with tea leaves for ears. They collaborated with KFC in 2007 and that series of toys was the trend of that year ."
-                }
-
-            },
-
-            {
-                "title":"Mini 4WD",
-                "content":{
-                    "image":"./assets/img/pic-07.png",
-                    "url":"https://en.wikipedia.org/wiki/Bakus%C5%8D_Ky%C5%8Ddai_Let%27s_%26_Go!!",
-                    "parragraph":"The Racing Brothers Let's & Go!! are Japanese animes produced from 1996 to 1998,adapted from the original manga. The Mini 4WD is a miniature AA battery powered plastic model race car without remote control."
-                }
-
-            }
-        
-        ]
-    
-    }
-
-
-
-
-]
+}]
 
 }
 
