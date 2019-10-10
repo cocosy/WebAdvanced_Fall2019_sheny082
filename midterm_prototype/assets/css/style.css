@@ -1,4 +1,5 @@
-* { box-sizing: border-box; } 
+* { box-sizing: border-box; 
+} 
 
 body { font-family: sans-serif; 
   background-image: url("../img/QQimage.jpg");
@@ -28,7 +29,7 @@ body { font-family: sans-serif;
   width: 200px;
   height: 200px;
   background-color: rgba(201, 76, 76, 0.3);
-  border: 2px solid hsla(0, 0%, 0%, 0.5);
+  border: 5px solid hsla(0, 0%, 0%, 0.7);
 }
 
 .grid-item--width2 { width: 400px; }
@@ -55,5 +56,5 @@ body { font-family: sans-serif;
 .grid-item--large {
   width: 400px;
   height: 400px;
-  background: #0C9;
+  background: white;
 }

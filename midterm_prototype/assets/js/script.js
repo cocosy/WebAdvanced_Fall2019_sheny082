@@ -2,7 +2,8 @@
 
 var $grid = $('.grid').packery({
   itemSelector: '.grid-item',
-  columnWidth: 100
+  columnWidth: 100,
+  gutter:0
 });
 
 // make all grid-items draggable
