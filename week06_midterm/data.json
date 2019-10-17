@@ -1,111 +1,94 @@
-// {"data":[
-//     {
-//         "website":"Digital Device",
+{"data":[
+    {
+        "website":"grid",
+        "website-info":
+        [
+            {
+                "title":"Zhenya Rynzhuk Folio 2019",
+                "link": "#yoyo-ball",
+                "content":{
+                    "size": "large",
+                    "image":"assets/img/pic-06.png",
+                    "url":"https://zhenyary.com/",
+                    "paragraph":"Portfolio of Zhenya Rynzhuk: award-winning art director and digital designer. with an architectural background."
+                }
+
+            },
+
+            {
+                "title":"#24hourace",
+                "link": "#yoyo-ball",
+                "content":{
+                    "size": "large",
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d833d6be5415518964962.jpg",
+                    "url":"http://24hourace.gucci.com/",
+                    "paragraph":"First launched in 2016, the digital project returns with a series of videos that bring the sneaker design to life."
+                }
+
+            },
+
+            {
+                "title":"MakeUI - Styled Sketch UI Kits",
+                "link": "#yoyo-ball",
+                "content":{
+                    "size": "large",
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d76ae607985a945705399.png",
+                    "url":"https://makeui.design/",
+                    "paragraph":"MakeUI is a digital design tool that generates styled Sketch UI kits within seconds for quick and easy prototyping."
+                }
+
+            }
+        
+        ]
+    
+    }
+
+
+]
+
+}
+
+// {   "website":"grid",
 //         "website-info":
 //         [
 //             {
-//                 "title":"White Rabbit Creamy Candy",
+//                 "title":"Zhenya Rynzhuk Folio 2019",
+//                 "link": "#yoyo-ball",
 //                 "content":{
-
-//                     "image":"./assets/img/pic-04.png",
+//                     "size": "small",
+//                     "image":"assets/img/pic-06.png",
 //                     "url":"https://zhenyary.com/",
-//                     "parragraph":"Portfolio of Zhenya Rynzhuk: award-winning art director and digital designer. with an architectural background."
+//                     "paragraph":"Portfolio of Zhenya Rynzhuk: award-winning art director and digital designer. with an architectural background."
 //                 }
 
 //             },
 
 //             {
 //                 "title":"#24hourace",
+//                 "link": "#yoyo-ball",
 //                 "content":{
-
-//                     "image":"./assets/img/pic-05.png",
+//                     "size": "small",
+//                     "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d833d6be5415518964962.jpg",
 //                     "url":"http://24hourace.gucci.com/",
-//                     "parragraph":"First launched in 2016, the digital project returns with a series of videos that bring the sneaker design to life."
+//                     "paragraph":"First launched in 2016, the digital project returns with a series of videos that bring the sneaker design to life."
 //                 }
 
 //             },
 
 //             {
 //                 "title":"MakeUI - Styled Sketch UI Kits",
+//                 "link": "#yoyo-ball",
 //                 "content":{
-
-//                     "image":"./assets/img/pic-08.png",
+//                     "size": "small",
+//                     "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d76ae607985a945705399.png",
 //                     "url":"https://makeui.design/",
-//                     "parragraph":"MakeUI is a digital design tool that generates styled Sketch UI kits within seconds for quick and easy prototyping."
+//                     "paragraph":"MakeUI is a digital design tool that generates styled Sketch UI kits within seconds for quick and easy prototyping."
 //                 }
 
 //             }
         
 //         ]
     
-//     },
-
-
-//     {   "website":"Toys",
-//         "website-info":
-//         [
-//             {
-//                 "title":"Yo-yo Ball",
-//                 "content":{
-
-//                     "image":"./assets/img/pic-06.png",
-//                     "url":"https://en.wikipedia.org/wiki/Yo-yo",
-//                     "parragraph":"Blazing Teens is a Chinese show that was created in 2006. The show focuses on high schools that hold yo-yo contests. Each yo-yo has a name that reflects the toy's design. And soon become popular among children."
-//                 }
-
-//             },
-
-//             {
-//                 "title":"KFC お茶犬",
-//                 "content":{
-
-//                     "image":"./assets/img/pic-03.jpeg",
-//                     "url":"https://www.youtube.com/watch?v=POZGP2PtpBc",
-//                     "parragraph":"Ocha-Ken (お茶犬) means in Japanese 'tea puppy' or 'tea dog'. They are colorful puppies, with tea leaves for ears. They collaborated with KFC in 2007 and that series of toys was the trend of that year ."
-//                 }
-
-//             },
-
-//             {
-//                 "title":"Mini 4WD",
-//                 "content":{
-//                     "image":"./assets/img/pic-07.png",
-//                     "url":"https://en.wikipedia.org/wiki/Bakus%C5%8D_Ky%C5%8Ddai_Let%27s_%26_Go!!",
-//                     "parragraph":"The Racing Brothers Let's & Go!! are Japanese animes produced from 1996 to 1998,adapted from the original manga. The Mini 4WD is a miniature AA battery powered plastic model race car without remote control."
-//                 }
-
-//             }
-        
-//         ]
-    
-
-//     }
-
-
-// ]
-
-// }
-
-
-{"data":[
-        {"image":
-        [
-            {
-                "./assets/img/pic-04.png"
-            },
-
-            {
-                "./assets/img/pic-05.png"
-            },
-
-            {
-               "./assets/img/pic-08.png"
-            }
-        
-        ]
-
-}]
-
-}
+ //   }
 
 

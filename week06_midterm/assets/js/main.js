@@ -1,3 +1,38 @@
+window.addEventListener('DOMContentLoaded', function () {
+	loadData();
+
+});
+
+
+function loadData() {
+	$.getJSON("../data_02.json ", function (data) {
+
+
+		for (var i = 0; i < data.length; i++) {
+	
+		}
+
+		generateWebsites(data);
+	});
+}
+
+
+function generateWebsites(data) {
+
+			console.log("hiiii");
+	let source = $("#websites-template").html();
+	let template = Handlebars.compile(source);
+	let result = template(data);
+	let list = $('.websites-list');
+	list.append(result);
+
+}
+
+
+
+
+
+
 // var elem = document.querySelector('.grid');
 // var pckry = new Packery( elem, {
 //   // options
@@ -41,41 +76,5 @@
 
 
 
-
-
-
-
-
-
-
-// window.addEventListener('DOMContentLoaded', function () {
-// 	loadData();
-// });
-
-
-// function loadData() {
-// 	$.getJSON("data.json", function (data) {
-
-
-// 		for (var i = 0; i < data.length; i++) {
-// 			console.log(data[i]);
-// 		}
-
-// 		generateWebsites(data);
-
-// 	});
-// }
-
-
-// function generateWebsites(data) {
-
-
-// 	let source = $("#websites-template").html();
-// 	let template = Handlebars.compile(source);
-// 	let result = template(data);
-// 	let list = $('.websites-list');
-// 	list.append(result);
-
-// }
 
 

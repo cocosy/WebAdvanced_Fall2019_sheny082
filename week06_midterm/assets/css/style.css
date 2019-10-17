@@ -1,12 +1,35 @@
+
+
+/*----------------------------------------------------------------------------------------------------*/
+
 * { box-sizing: border-box; 
 } 
 
 body { font-family: sans-serif; 
-  background-image: url("../img/QQimage.jpg");
-  background-color: rgba(255,255,255,0.8);
-  background-blend-mode: lighten;
+/*  background-image: url("../img/QQimage.jpg");*/
+  background-color: rgba(155,0,0,0.8);
+  background-blend-mode: darken;
 }
 
+
+h1,h2{
+font-family: 'Press Start 2P', cursive;
+line-height: 115%;
+color: white;
+ font-size: calc(1rem + 0.8vw);
+}
+
+h3{
+  color: white;
+  padding-top: 1vh;
+  font-family: 'Press Start 2P', cursive;
+  font-size: calc(0.5rem + 0.3vw);
+  line-height: 100%;
+}
+
+a { color: white; 
+
+} 
 
 .top{
   float: left;
@@ -14,41 +37,208 @@ body { font-family: sans-serif;
   width: 33.33%;
   border: 2px solid;
   padding: 2vw;
+  padding-top: 1vw;
+  color:white;
 }
 
-.info{
+/*.info{
   float: left;
   width:31%;
   height:10vh;
   text-align: center;
+  color:white;
 
 }
+*/
+
+
+/* #grid{
+  
+
+}*/
 
 header{
    max-width: 100%;
    height:5vh;
-  padding:2vw 3.3vw 2vw 2.7vw;
-/*  padding-left: 2.7vw;
-  padding-right: 3.3vw;*/
+  padding:2vw 3.3vw 2vw 2.7vw;}
+
+
+.small { 
+   float: left;
+  width: 15.5vw;
+  height: 15.5vw;
+  border: 2px solid hsla(0, 0%, 0%, 0.7);
+/*  display: table;*/
+  }
+
+ .large {
+   float: left;
+  width: 31vw;
+  height: 31vw ;
+/*  background-color: rgba(201, 76, 76, 0.3);*/
+  border: 2px solid;
+  padding: 2.0833333333333335vw; /*for picture inside*/
+/*  display: table;*/
+}
+
+
+.medium{ 
+  float: left;
+  width: 18.6vw;
+  height: 18.6vw;
+  background-color: rgba(201, 76, 76, 0.3);
+  border: 2px solid hsla(0, 0%, 0%, 0.7);
+}
+/*  display: table;*/
 
 
 
+
+
+/* Popup Style
+.about-container{
+    position: absolute;
+    display: none;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right:10%; 
+    margin-top:60px; 
+}
+.popup-container{
+   
+    width: 100%;
+    height: 100vh;
+    background-color: goldenrod;
+}
+/*h3{
+  font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 20px 0;
+    color: rgb(255, 255, 255);
+    font-size: calc(2.5rem + 1vw);
+
+}*/
+
+.text1{
+  font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 0 20px 0;
+    color: rgb(24, 24, 24);
+    font-size: calc(1.4rem + 1vw);
+
+}
+.text2{
+  font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 20px 0;
+    color: rgb(24, 24, 24);
+    font-size: calc(0.7rem + 1vw);
 
 }
 
-/* ---- grid ---- */
+.close{
+  position: absolute;
+  right: 75px;
+  top: 25px;
+  font-size: 60px;
+  color: #000;
+  cursor: pointer;
+  font-weight: 100;
+}
 
-#grid {
-/*  background: white;*/
+/* Cards Style */
+
+
+
+.websites-list {
+ /*   width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right:10%; */
+
+
   max-width: 100%;
-
   height: auto;
   padding:2vw;
   position: relative;
   padding-left: 2.7vw;
-/*  margin: 5px;*/
 }
 
+.website-container{
+ 
+float: left;
+  width: 31vw;
+  height: 31vw ;
+
+  border: 2px solid;
+  padding: 2.0833333333333335vw;
+  display: table;
+
+}
+ /*  width: calc(94% / 3);
+    padding: 1%;
+    float: left;
+   background-color: rgba(201, 76, 76, 0.3);
+    /*for picture inside*/
+
+.item-image{
+    width: 90%;
+
+}
+/*
+.item-image:hover{
+    filter: blur(1px) grayscale(80%);
+}
+*/
+
+p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 20px 0;
+    color: rgb(213, 213, 213);
+    font-size: calc(0.2rem + 1vw);
+}
+    
+
+
+.visible{
+    position: fixed;
+    display: block;
+    z-index: 100;
+}
+
+.hide{
+    display: none;
+}
+
+.about{
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10%;
+    border: 0;
+    padding: 0;
+    font-size: calc(1rem + 1vw);
+    text-decoration: none;
+    background-color: rgb(48, 48, 48);
+    cursor: pointer;
+    
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------------
+*/
+
+
+/*  padding-left: 2.7vw;
+  padding-right: 3.3vw;*/
+
+
+/* ---- grid ---- */
+
+
+
+/*  margin: 5px;*/
+/*  background: white;*/
 /* clear fix */
 /*.grid:after {
   content: '';
@@ -56,35 +246,7 @@ header{
   clear: both;
 }*/
 
-/* ---- .grid-item ---- */
 
-.grid-item {
-  float: left;
-  width: 31vw;
-  height: 31vw ;
-/*  background-color: rgba(201, 76, 76, 0.3);*/
-  border: 2px solid;
-  padding: 2.0833333333333335vw; /*for picture inside*/
-  display: table;
-}
-
-.grid-item--width2 { 
-   float: left;
-  width: 31vw;
-  height: 15.22vw;
-  background-color: rgba(201, 76, 76, 0.3);
-  border: 2px solid hsla(0, 0%, 0%, 0.7);
-  display: table;
-  }
-.grid-item--height2 { 
-   float: left;
-  width: 15.22vw;
-  height: 31vw;
-  background-color: rgba(234,100,23, 0.3);
-  border: 2px solid hsla(0, 0%, 0%, 0.7);
-   display: table;
-
-   }
 
 
 /*
