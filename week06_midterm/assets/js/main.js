@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
 function loadData() {
-	$.getJSON("../data_02.json ", function (data) {
+	$.getJSON("data.json ", function (data) {
 
 
 		for (var i = 0; i < data.length; i++) {
