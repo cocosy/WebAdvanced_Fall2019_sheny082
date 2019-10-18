@@ -4,23 +4,21 @@
         "website-info":
         [
             {
-                "title":"Zhenya Rynzhuk Folio 2019",
+                "title":"White Rabbit Creamy Candy",
                 "content":{
                     "size":"large",
-
-                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d83cba4067f1346863848.png",
-                    "url":"https://zhenyary.com/",
+                    "image":"assets/img/pic-04.png",
+                    "url":"https://www.google.com/search?q=White+Rabbit+Creamy+Candy",
                     "parragraph":"Portfolio of Zhenya Rynzhuk: award-winning art director and digital designer. with an architectural background."
                 }
 
             },
 
             {
-                "title":"#24hourace",
+                "title":"Yo-yo Ball",
                 "content":{
                     "size":"large",
-
-                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d833d6be5415518964962.jpg",
+                    "image":"assets/img/pic-06.png",
                     "url":"http://24hourace.gucci.com/",
                     "parragraph":"First launched in 2016, the digital project returns with a series of videos that bring the sneaker design to life."
                 }
@@ -28,11 +26,42 @@
             },
 
             {
-                "title":"MakeUI - Styled Sketch UI Kits",
+                "title":"KFC Ocha-ken",
                 "content":{
                     "size":"large",
+                    "image":"assets/img/pic-03.jpeg",
+                    "url":"https://makeui.design/",
+                    "parragraph":"MakeUI is a digital design tool that generates styled Sketch UI kits within seconds for quick and easy prototyping."
+                }
 
-                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d76ae607985a945705399.png",
+            }
+            {
+                "title":"White Rabbit Creamy Candy",
+                "content":{
+                    "size":"large",
+                    "image":"assets/img/pic-04.png",
+                    "url":"https://www.google.com/search?q=White+Rabbit+Creamy+Candy",
+                    "parragraph":"Portfolio of Zhenya Rynzhuk: award-winning art director and digital designer. with an architectural background."
+                }
+
+            },
+
+            {
+                "title":"Yo-yo Ball",
+                "content":{
+                    "size":"large",
+                    "image":"assets/img/pic-06.png",
+                    "url":"http://24hourace.gucci.com/",
+                    "parragraph":"First launched in 2016, the digital project returns with a series of videos that bring the sneaker design to life."
+                }
+
+            },
+
+            {
+                "title":"KFC Ocha-ken",
+                "content":{
+                    "size":"large",
+                    "image":"assets/img/pic-03.jpeg",
                     "url":"https://makeui.design/",
                     "parragraph":"MakeUI is a digital design tool that generates styled Sketch UI kits within seconds for quick and easy prototyping."
                 }
@@ -48,11 +77,11 @@
         "website-info":
         [
             {
-                "title":"Julio Cesar",
+                "title":"Nokia",
                 "content":{
                     "size":"medium",
 
-                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d89d97028b58144534766.jpg",
+                    "image":"assets/img/Nokia.jpg",
                     "url":"https://www.juliocesar.work/",
                     "parragraph":"A Brazilian creative developer based in Barcelona, focused on digital interactive experiences."
                 }
@@ -60,12 +89,12 @@
             },
 
             {
-                "title":"Intact",
+                "title":"Mini 4WD",
                 "content":{
                      "size":"medium",
 
-                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d7f7adf1c6b6087801663.jpg",
-                    "url":"https://www.intactsoftware.com/",
+                    "image":"assets/img/pic-07.png",
+                    "url":"https://en.wikipedia.org/wiki/Bakus%C5%8D_Ky%C5%8Ddai_Let%27s_%26_Go!!",
                     "parragraph":"Industry-specific ERP software that helps business operations scale, extend or diversify with ease."
                 }
 
@@ -76,7 +105,7 @@
                 "content":{
                      "size":"medium",
 
-                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d8a31472a054815604255.png",
+                    "image":"assets/img/pic-06.png",
                     "url":"https://www.warpedcigars.com/",
                     "parragraph":"The official website for boutique cigar company Warped Cigars by Kyle Gellis, with factories in Little Havana and Esteli, Nicaragua."
                 }
@@ -103,14 +132,14 @@
                     "parragraph":"The official website for boutique cigar company Warped Cigars by Kyle Gellis, with factories in Little Havana and Esteli, Nicaragua."
                 }
 
-            }
+            },
         
         ]
     
     },
 
 
-    {   "website":"medium",
+    {   "website":"small",
         "website-info":
         [
             {
