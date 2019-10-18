@@ -34,7 +34,7 @@
                     "parragraph":"MakeUI is a digital design tool that generates styled Sketch UI kits within seconds for quick and easy prototyping."
                 }
 
-            }
+            },
             {
                 "title":"White Rabbit Creamy Candy",
                 "content":{
@@ -132,7 +132,7 @@
                     "parragraph":"The official website for boutique cigar company Warped Cigars by Kyle Gellis, with factories in Little Havana and Esteli, Nicaragua."
                 }
 
-            },
+            }
         
         ]
     
@@ -142,6 +142,76 @@
     {   "website":"small",
         "website-info":
         [
+            {
+                "title":"Julio Cesar",
+                "content":{
+                    "size":"small",
+
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d89d97028b58144534766.jpg",
+                    "url":"https://www.juliocesar.work/",
+                    "parragraph":"A Brazilian creative developer based in Barcelona, focused on digital interactive experiences."
+                }
+
+            },
+
+            {
+                "title":"Intact",
+                "content":{
+                     "size":"small",
+
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d7f7adf1c6b6087801663.jpg",
+                    "url":"https://www.intactsoftware.com/",
+                    "parragraph":"Industry-specific ERP software that helps business operations scale, extend or diversify with ease."
+                }
+
+            },
+
+            {
+                "title":"Warped Cigars",
+                "content":{
+                     "size":"small",
+
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d8a31472a054815604255.png",
+                    "url":"https://www.warpedcigars.com/",
+                    "parragraph":"The official website for boutique cigar company Warped Cigars by Kyle Gellis, with factories in Little Havana and Esteli, Nicaragua."
+                }
+
+            },
+             {
+                "title":"Julio Cesar",
+                "content":{
+                    "size":"small",
+
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d89d97028b58144534766.jpg",
+                    "url":"https://www.juliocesar.work/",
+                    "parragraph":"A Brazilian creative developer based in Barcelona, focused on digital interactive experiences."
+                }
+
+            },
+
+            {
+                "title":"Intact",
+                "content":{
+                     "size":"small",
+
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d7f7adf1c6b6087801663.jpg",
+                    "url":"https://www.intactsoftware.com/",
+                    "parragraph":"Industry-specific ERP software that helps business operations scale, extend or diversify with ease."
+                }
+
+            },
+
+            {
+                "title":"Warped Cigars",
+                "content":{
+                     "size":"small",
+
+                    "image":"https://assets.awwwards.com/awards/media/cache/optimize/submissions/2019/09/5d8a31472a054815604255.png",
+                    "url":"https://www.warpedcigars.com/",
+                    "parragraph":"The official website for boutique cigar company Warped Cigars by Kyle Gellis, with factories in Little Havana and Esteli, Nicaragua."
+                }
+
+            },
             {
                 "title":"Julio Cesar",
                 "content":{
