@@ -7,7 +7,12 @@
 var express = require ('express'); 	// importing the module and access it; variable acting as a function call
 
 var app = express(); 			 	//make a express application ; create app
-var server = app.listen(4000);  	// run server on 3000
+
+const port = process.env.PORT || 4000;
+var server = app.listen(port,() => {
+	console.log('Starting server at ${port}');
+});
+ 	// run server on port
 
 app.use(express.static('public'));  //host file that are static
 
@@ -29,7 +34,7 @@ function newConnection(socket){
 	function mouseMsg(data){
 		socket.broadcast.emit('mouse',data); // when the message come in, send it back out 
 		//io.sockets.emit(mouse,data); send back to everyone
-		console.log(data);
+	// console.log(data);
 
 	}
 
